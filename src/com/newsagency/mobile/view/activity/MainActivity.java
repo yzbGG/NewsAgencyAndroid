@@ -1,4 +1,7 @@
-package com.newsagency.mobile;
+package com.newsagency.mobile.view.activity;
+
+import com.newsagency.mobile.R;
+import com.newsagency.mobile.R.layout;
 
 import android.app.Activity;
 import android.app.ActionBar;
