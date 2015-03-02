@@ -16,5 +16,71 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    
+        <style name="main_tab_bottom">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@drawable/bg_bottom_bar</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:drawablePadding">-2dp</item>
+      	<item name="android:background">@drawable/bg_bottom_bar_selector</item>
+    </style>
+    
+        <!-- 进度条 -->
+    <style name="progressbar_rotate_style">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressbar_rotate</item>
+        <item name="android:indeterminateDuration">2000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+    
+    <style name="dialogFilterSodino" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/no_color</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+    </style>
+    
+    	<!--   PopupWindow从下往上弹出的效果-->
+	<style name="pop_anim_in_down_to_up">    
+		<item name="android:windowEnterAnimation">@anim/pop_in_down_to_up</item>    
+		<item name="android:windowExitAnimation">@anim/pop_out_up_to_down</item>    
+	</style> 
+	
+	<!--   PopupWindow从上往下弹出的效果-->
+    <style name="pop_anim_in_up_to_down">    
+		<item name="android:windowEnterAnimation">@anim/pop_in_up_to_down</item>    
+		<item name="android:windowExitAnimation">@anim/pop_out_down_to_up</item>    
+	</style>  
+	
+    
+    <!--   PopupWindow从上往下弹出的效果-->
+    <style name="homeindexbottom">    
+		<item name="android:textSize">13sp</item>    
+		<item name="android:paddingTop">5dip</item>   
+		<item name="android:paddingLeft">5dip</item>     
+		<item name="android:layout_centerVertical">true</item>    
+		<item name="android:layout_width">wrap_content</item> 
+		<item name="android:layout_height">match_parent</item>  
+		<item name="android:textColor">@color/gray_c</item>       
+	</style>  
+	
+    <style name="dialogSodino" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
 
 </resources>
