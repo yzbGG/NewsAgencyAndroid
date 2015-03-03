@@ -16,6 +16,7 @@ import org.json.JSONObject;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -34,7 +35,7 @@ import com.newsagency.mobile.view.widget.PopBox;
 /**
  * @DESCRIBE 所有的网络请求activity基类
  */
-public abstract class BaseActivity extends Activity implements NetResponseListener {
+public abstract class BaseActivity extends FragmentActivity implements NetResponseListener {
 
 	private Net net;
 	protected NewsAgencyApplication application;
