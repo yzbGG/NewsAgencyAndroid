@@ -595,7 +595,7 @@ containing a value of this type.
     }
     public static final class drawable {
         public static final int actionbar_bottom=0x7f020000;
-        public static final int ba_bg_select=0x7f02001c;
+        public static final int ba_bg_select=0x7f02001d;
         public static final int background_card=0x7f020001;
         public static final int background_tab=0x7f020002;
         public static final int background_tabs=0x7f020003;
@@ -604,38 +604,42 @@ containing a value of this type.
         public static final int contact=0x7f020006;
         public static final int corners_bg_selector=0x7f020007;
         public static final int corners_bottom_selector=0x7f020008;
-        public static final int dark_drawable=0x7f02001a;
-        public static final int gray_drawable=0x7f02001d;
-        public static final int green_drawable=0x7f02001e;
+        public static final int dark_drawable=0x7f02001b;
+        public static final int gray_drawable=0x7f02001e;
+        public static final int green_drawable=0x7f02001f;
         public static final int ic_action_user=0x7f020009;
-        public static final int ic_launcher=0x7f02000a;
-        public static final int ic_launcher_actionbar=0x7f02000b;
-        public static final int ic_launcher_chrome=0x7f02000c;
-        public static final int ic_launcher_gmail=0x7f02000d;
-        public static final int ic_launcher_gmaps=0x7f02000e;
-        public static final int ic_launcher_gplus=0x7f02000f;
-        public static final int image_progress=0x7f020010;
-        public static final int light_drawable=0x7f02001b;
-        public static final int no_color_drawable=0x7f020019;
-        public static final int progressbar_rotate=0x7f020011;
-        public static final int progressbar_rotate_inner=0x7f020012;
-        public static final int progressbar_rotate_outer=0x7f020013;
-        public static final int pull_refresh_loading=0x7f020014;
-        public static final int selector_btn_popbox=0x7f020015;
-        public static final int selector_textview_textcolor=0x7f020016;
-        public static final int tabs_pattern=0x7f020017;
-        public static final int tabs_pattern_diagonal=0x7f020018;
+        public static final int ic_action_user_black=0x7f02000a;
+        public static final int ic_launcher=0x7f02000b;
+        public static final int ic_launcher_actionbar=0x7f02000c;
+        public static final int ic_launcher_chrome=0x7f02000d;
+        public static final int ic_launcher_gmail=0x7f02000e;
+        public static final int ic_launcher_gmaps=0x7f02000f;
+        public static final int ic_launcher_gplus=0x7f020010;
+        public static final int image_progress=0x7f020011;
+        public static final int light_drawable=0x7f02001c;
+        public static final int no_color_drawable=0x7f02001a;
+        public static final int progressbar_rotate=0x7f020012;
+        public static final int progressbar_rotate_inner=0x7f020013;
+        public static final int progressbar_rotate_outer=0x7f020014;
+        public static final int pull_refresh_loading=0x7f020015;
+        public static final int selector_btn_popbox=0x7f020016;
+        public static final int selector_textview_textcolor=0x7f020017;
+        public static final int tabs_pattern=0x7f020018;
+        public static final int tabs_pattern_diagonal=0x7f020019;
     }
     public static final class id {
-        public static final int bottom=0x7f090006;
-        public static final int btn_cancel=0x7f090008;
-        public static final int btn_ok=0x7f090007;
-        public static final int colors=0x7f090002;
-        public static final int content=0x7f090004;
-        public static final int pager=0x7f090001;
-        public static final int pb1=0x7f090005;
-        public static final int tabs=0x7f090000;
-        public static final int title=0x7f090003;
+        public static final int bottom=0x7f090009;
+        public static final int btn_cancel=0x7f09000b;
+        public static final int btn_ok=0x7f09000a;
+        public static final int content=0x7f090007;
+        public static final int imageView1=0x7f090002;
+        public static final int imageView2=0x7f090003;
+        public static final int pager=0x7f090005;
+        public static final int pb1=0x7f090008;
+        public static final int tabs=0x7f090004;
+        public static final int textView1=0x7f090001;
+        public static final int title=0x7f090006;
+        public static final int top=0x7f090000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

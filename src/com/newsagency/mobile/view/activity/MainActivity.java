@@ -23,9 +23,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.TypedValue;
 
 import com.astuetz.viewpager.extensions.PagerSlidingTabStrip;
+import com.astuetz.viewpager.extensions.PagerSlidingTabStrip.IconTabProvider;
 import com.newsagency.mobile.R;
 
 public class MainActivity extends BaseActivity {
@@ -53,18 +55,18 @@ public class MainActivity extends BaseActivity {
 		final int pageMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 4, getResources()
 				.getDisplayMetrics());
 		pager.setPageMargin(pageMargin);
-
 		tabs.setViewPager(pager);
+		
 
 	}
 
 
 
-	public class MyPagerAdapter extends FragmentPagerAdapter {
+	public class MyPagerAdapter extends FragmentPagerAdapter implements IconTabProvider{
 
-		private final String[] TITLES = { "Categories", "Home", "Top Paid", "Top Free", "Top Grossing", "Top New Paid",
-				"Top New Free", "Trending" };
-
+		private final String[] TITLES = { "新闻片", "大事件", "多棱镜"};
+		private final int[]  ICONS_SELECT= { R.drawable.ic_action_user, R.drawable.ic_action_user, R.drawable.ic_action_user};
+		private final int[] ICONS = { R.drawable.ic_action_user_black, R.drawable.ic_action_user_black, R.drawable.ic_action_user_black};
 		public MyPagerAdapter(FragmentManager fm) {
 			super(fm);
 		}
@@ -82,6 +84,16 @@ public class MainActivity extends BaseActivity {
 		@Override
 		public Fragment getItem(int position) {
 			return SuperAwesomeCardFragment.newInstance(position);
+		}
+
+		@Override
+		public int getPageIconResId(int position) {
+			return ICONS[position];
+		}
+
+		@Override
+		public int getPageIconBlackResId(int position) {
+			return ICONS_SELECT[position];
 		}
 
 	}

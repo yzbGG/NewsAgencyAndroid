@@ -4,31 +4,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="#fff" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="立场新闻社"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@android:drawable/ic_menu_sort_by_size" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:src="@android:drawable/ic_menu_search" />
+
+    </RelativeLayout>
+
     <com.astuetz.viewpager.extensions.PagerSlidingTabStrip
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="48dip"
-        android:background="@drawable/background_tabs" />
+        android:layout_below="@+id/top"
+        android:background="#fff"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        app:indicatorColor="#aa028675"
+        app:indicatorHeight="4dp"
+        app:shouldExpand="true"
+        app:underlineColor="#88028675"
+        app:underlineHeight="5dp" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/colors"
+        android:layout_height="match_parent"
         android:layout_below="@+id/tabs"
         tools:context=".MainActivity" />
-
-    <LinearLayout
-        android:id="@+id/colors"
-        android:layout_width="match_parent"
-        android:layout_height="48dip"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dip"
-        android:layout_marginLeft="4dip"
-        android:layout_marginRight="4dip"
-        android:orientation="horizontal" >
-
-        
-    </LinearLayout>
 
 </RelativeLayout>
