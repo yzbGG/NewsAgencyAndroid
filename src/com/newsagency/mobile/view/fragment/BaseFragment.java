@@ -50,78 +50,78 @@ public abstract class BaseFragment extends Fragment implements NetResponseListen
 	protected EditText searchText;
 	
 	
-	/**
-	 * 顶部菜单右边按钮点击事件
-	 * 
-	 * @param v
-	 *            被点击的view
-	 */
-	public abstract void rightTitleClick(View v, BaseActivity context);
-	
-	public abstract void leftTitleClick(View v, BaseActivity context);
-
-	/**
-	 * 顶部菜单右边按钮将要更换的图片资源id（必须为图片资源id）
-	 * 
-	 * @return
-	 */
-	public abstract int getRightTitle();
-	
-	
-	
-	public abstract int getLeftTitle();
-	
-	
-	/**
-	 * 左边按钮是否需要隐藏
-	 * @return
-	 */
-	public abstract boolean isLeftTitleHide();
-	
-	/**
-	 * 右边按钮是否需要隐藏
-	 * @return
-	 */
-	public abstract boolean isRightTitleHide();
-	
-	/**
-	 * 标题是否需要隐藏
-	 * @return
-	 */
-	public abstract boolean isNavBarHide();
-	
-	/**
-	 * 此fragment的名字，会显示在顶部导航栏中间
-	 * 
-	 * @return
-	 */
-	public abstract int getFragmentTitleResourceId();
-
-	/**
-	 * 如果返回true 表示此fragment不显示的时候会被移除，false表示仅仅隐藏起来
-	 * 
-	 * @return
-	 */
-	public abstract boolean isNeedRemove();
-	
-	
-	public void getEdit(EditText text)
-	{
-		this.searchText=text; 
-	}
-
-	/**
-	 * 点击的按钮id绑定到fragment
-	 */
-	private int bindIngd;
-
-	public int getBindIngd() {
-		return bindIngd;
-	}
-
-	public void setBindIngd(int bindIngd) {
-		this.bindIngd = bindIngd;
-	}
+//	/**
+//	 * 顶部菜单右边按钮点击事件
+//	 * 
+//	 * @param v
+//	 *            被点击的view
+//	 */
+//	public abstract void rightTitleClick(View v, BaseActivity context);
+//	
+//	public abstract void leftTitleClick(View v, BaseActivity context);
+//
+//	/**
+//	 * 顶部菜单右边按钮将要更换的图片资源id（必须为图片资源id）
+//	 * 
+//	 * @return
+//	 */
+//	public abstract int getRightTitle();
+//	
+//	
+//	
+//	public abstract int getLeftTitle();
+//	
+//	
+//	/**
+//	 * 左边按钮是否需要隐藏
+//	 * @return
+//	 */
+//	public abstract boolean isLeftTitleHide();
+//	
+//	/**
+//	 * 右边按钮是否需要隐藏
+//	 * @return
+//	 */
+//	public abstract boolean isRightTitleHide();
+//	
+//	/**
+//	 * 标题是否需要隐藏
+//	 * @return
+//	 */
+//	public abstract boolean isNavBarHide();
+//	
+//	/**
+//	 * 此fragment的名字，会显示在顶部导航栏中间
+//	 * 
+//	 * @return
+//	 */
+//	public abstract int getFragmentTitleResourceId();
+//
+//	/**
+//	 * 如果返回true 表示此fragment不显示的时候会被移除，false表示仅仅隐藏起来
+//	 * 
+//	 * @return
+//	 */
+//	public abstract boolean isNeedRemove();
+//	
+//	
+//	public void getEdit(EditText text)
+//	{
+//		this.searchText=text; 
+//	}
+//
+//	/**
+//	 * 点击的按钮id绑定到fragment
+//	 */
+//	private int bindIngd;
+//
+//	public int getBindIngd() {
+//		return bindIngd;
+//	}
+//
+//	public void setBindIngd(int bindIngd) {
+//		this.bindIngd = bindIngd;
+//	}
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

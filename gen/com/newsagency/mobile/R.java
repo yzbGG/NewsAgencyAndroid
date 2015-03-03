@@ -646,7 +646,8 @@ containing a value of this type.
         public static final int app_msg=0x7f030001;
         public static final int background_tabs=0x7f030002;
         public static final int background_tabs_diagonal=0x7f030003;
-        public static final int pop_dialog=0x7f030004;
+        public static final int fragment_news=0x7f030004;
+        public static final int pop_dialog=0x7f030005;
     }
     public static final class string {
         public static final int action_settings=0x7f070002;
