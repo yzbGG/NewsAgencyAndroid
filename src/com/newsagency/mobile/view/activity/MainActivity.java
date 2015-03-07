@@ -85,7 +85,6 @@ public class MainActivity extends BaseActivity {
 		public Fragment getItem(int position) {
 			return SuperAwesomeCardFragment.newInstance(position);
 		}
-
 		@Override
 		public int getPageIconResId(int position) {
 			return ICONS[position];
