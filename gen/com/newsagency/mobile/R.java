@@ -595,7 +595,7 @@ containing a value of this type.
     }
     public static final class drawable {
         public static final int actionbar_bottom=0x7f020000;
-        public static final int ba_bg_select=0x7f020028;
+        public static final int ba_bg_select=0x7f020029;
         public static final int background_card=0x7f020001;
         public static final int background_tab=0x7f020002;
         public static final int background_tabs=0x7f020003;
@@ -604,9 +604,9 @@ containing a value of this type.
         public static final int contact=0x7f020006;
         public static final int corners_bg_selector=0x7f020007;
         public static final int corners_bottom_selector=0x7f020008;
-        public static final int dark_drawable=0x7f020026;
-        public static final int gray_drawable=0x7f020029;
-        public static final int green_drawable=0x7f02002a;
+        public static final int dark_drawable=0x7f020027;
+        public static final int gray_drawable=0x7f02002a;
+        public static final int green_drawable=0x7f02002b;
         public static final int ic_action_user=0x7f020009;
         public static final int ic_action_user_black=0x7f02000a;
         public static final int ic_launcher=0x7f02000b;
@@ -625,18 +625,19 @@ containing a value of this type.
         public static final int icon_seach=0x7f020018;
         public static final int icon_share=0x7f020019;
         public static final int image_progress=0x7f02001a;
-        public static final int light_drawable=0x7f020027;
-        public static final int no_color_drawable=0x7f020025;
-        public static final int progressbar_rotate=0x7f02001b;
-        public static final int progressbar_rotate_inner=0x7f02001c;
-        public static final int progressbar_rotate_outer=0x7f02001d;
-        public static final int pull_refresh_loading=0x7f02001e;
-        public static final int selector_btn_popbox=0x7f02001f;
-        public static final int selector_textview_textcolor=0x7f020020;
-        public static final int tabs_pattern=0x7f020021;
-        public static final int tabs_pattern_diagonal=0x7f020022;
-        public static final int test=0x7f020023;
-        public static final int xlistview_arrow=0x7f020024;
+        public static final int light_drawable=0x7f020028;
+        public static final int main=0x7f02001b;
+        public static final int no_color_drawable=0x7f020026;
+        public static final int progressbar_rotate=0x7f02001c;
+        public static final int progressbar_rotate_inner=0x7f02001d;
+        public static final int progressbar_rotate_outer=0x7f02001e;
+        public static final int pull_refresh_loading=0x7f02001f;
+        public static final int selector_btn_popbox=0x7f020020;
+        public static final int selector_textview_textcolor=0x7f020021;
+        public static final int tabs_pattern=0x7f020022;
+        public static final int tabs_pattern_diagonal=0x7f020023;
+        public static final int test=0x7f020024;
+        public static final int xlistview_arrow=0x7f020025;
     }
     public static final class id {
         public static final int TextView01=0x7f090015;
@@ -680,14 +681,15 @@ containing a value of this type.
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_my=0x7f030001;
-        public static final int app_msg=0x7f030002;
-        public static final int background_tabs=0x7f030003;
-        public static final int background_tabs_diagonal=0x7f030004;
-        public static final int fragment_news=0x7f030005;
-        public static final int list_item_news=0x7f030006;
-        public static final int pop_dialog=0x7f030007;
-        public static final int xlistview_footer=0x7f030008;
-        public static final int xlistview_header=0x7f030009;
+        public static final int activity_start=0x7f030002;
+        public static final int app_msg=0x7f030003;
+        public static final int background_tabs=0x7f030004;
+        public static final int background_tabs_diagonal=0x7f030005;
+        public static final int fragment_news=0x7f030006;
+        public static final int list_item_news=0x7f030007;
+        public static final int pop_dialog=0x7f030008;
+        public static final int xlistview_footer=0x7f030009;
+        public static final int xlistview_header=0x7f03000a;
     }
     public static final class string {
         public static final int action_settings=0x7f070002;
