@@ -7,18 +7,28 @@
  */
 package com.newsagency.mobile.view.fragment;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.newsagency.mobile.R;
+import com.newsagency.mobile.model.Project;
+import com.newsagency.mobile.view.adapter.HomeAdapter;
+import com.newsagency.mobile.view.widget.XListView;
 
 
 /**
  * @DESCRIBE ...
  */
 public class NewsFragment extends BaseFragment{
+	
+	private XListView listView;
+	private List<Project> list;
+	private HomeAdapter adapter;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -31,16 +41,17 @@ public class NewsFragment extends BaseFragment{
 
 	private void initView(LayoutInflater inflater, View view) {
 
-//		listView = (XListView) view.findViewById(R.id.xlistview_home);
-//		listView.setHeaderDividersEnabled(false);
-//		listView.setFooterDividersEnabled(false);
+		listView = (XListView) view.findViewById(R.id.xlistview_home);
+		listView.setHeaderDividersEnabled(false);
+		listView.setFooterDividersEnabled(false);
 //		listView.setOnItemClickListener(this);
 //		this.initHeadView(inflater);
 //		listView.addHeaderView(this.headView);
-//		list = new ArrayList<Project>();
-//		mAdapter = new HomeAdapter(getActivity(), list);
-//		listView.setAdapter(mAdapter);
-//		listView.setPullLoadEnable(true);
+		list = new ArrayList<Project>();
+		adapter = new HomeAdapter(getActivity(), list);
+		listView.setAdapter(adapter);
+		listView.setPullLoadEnable(false);
+		listView.setPullRefreshEnable(false);
 //
 //		homeYiming = (LinearLayout) view.findViewById(R.id.home_yiming);
 //		homeLiuxue = (LinearLayout) view.findViewById(R.id.home_liuxue);
@@ -55,6 +66,16 @@ public class NewsFragment extends BaseFragment{
 //		homeJiangzuo = (LinearLayout) view.findViewById(R.id.home_jiangzuo);
 //		homeYouji = (LinearLayout) view.findViewById(R.id.home_youji);
 
+	}
+
+	@Override
+	public int getFragmentTitleResourceId() {
+		return 0;
+	}
+
+	@Override
+	public boolean isNeedRemove() {
+		return false;
 	}
 
 

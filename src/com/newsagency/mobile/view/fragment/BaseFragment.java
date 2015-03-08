@@ -90,19 +90,19 @@ public abstract class BaseFragment extends Fragment implements NetResponseListen
 //	 */
 //	public abstract boolean isNavBarHide();
 //	
-//	/**
-//	 * 此fragment的名字，会显示在顶部导航栏中间
-//	 * 
-//	 * @return
-//	 */
-//	public abstract int getFragmentTitleResourceId();
-//
-//	/**
-//	 * 如果返回true 表示此fragment不显示的时候会被移除，false表示仅仅隐藏起来
-//	 * 
-//	 * @return
-//	 */
-//	public abstract boolean isNeedRemove();
+	/**
+	 * 此fragment的名字，会显示在顶部导航栏中间
+	 * 
+	 * @return
+	 */
+	public abstract int getFragmentTitleResourceId();
+
+	/**
+	 * 如果返回true 表示此fragment不显示的时候会被移除，false表示仅仅隐藏起来
+	 * 
+	 * @return
+	 */
+	public abstract boolean isNeedRemove();
 //	
 //	
 //	public void getEdit(EditText text)
@@ -110,18 +110,18 @@ public abstract class BaseFragment extends Fragment implements NetResponseListen
 //		this.searchText=text; 
 //	}
 //
-//	/**
-//	 * 点击的按钮id绑定到fragment
-//	 */
-//	private int bindIngd;
-//
-//	public int getBindIngd() {
-//		return bindIngd;
-//	}
-//
-//	public void setBindIngd(int bindIngd) {
-//		this.bindIngd = bindIngd;
-//	}
+	/**
+	 * 点击的按钮id绑定到fragment
+	 */
+	private int bindIngd;
+
+	public int getBindIngd() {
+		return bindIngd;
+	}
+
+	public void setBindIngd(int bindIngd) {
+		this.bindIngd = bindIngd;
+	}
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

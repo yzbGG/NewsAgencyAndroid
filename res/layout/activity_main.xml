@@ -23,21 +23,21 @@
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="10dp"
-            android:src="@android:drawable/ic_menu_sort_by_size" />
+            android:src="@drawable/icon_liebiao" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="15dp"
             android:layout_toLeftOf="@+id/imageView1"
-            android:src="@android:drawable/ic_menu_search" />
+            android:src="@drawable/icon_seach" />
 
     </RelativeLayout>
 
