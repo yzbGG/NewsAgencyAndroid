@@ -639,24 +639,23 @@ containing a value of this type.
         public static final int xlistview_arrow=0x7f020024;
     }
     public static final class id {
-        public static final int TextView01=0x7f090016;
-        public static final int bottom=0x7f09001a;
-        public static final int btn_cancel=0x7f09001c;
-        public static final int btn_ok=0x7f09001b;
+        public static final int TextView01=0x7f090015;
+        public static final int bottom=0x7f090019;
+        public static final int btn_cancel=0x7f09001b;
+        public static final int btn_ok=0x7f09001a;
         public static final int container=0x7f090012;
-        public static final int content=0x7f090018;
+        public static final int content=0x7f090017;
         public static final int imageView1=0x7f090002;
         public static final int imageView2=0x7f090003;
-        public static final int imageView3=0x7f090015;
+        public static final int imageView3=0x7f090014;
         public static final int line_event=0x7f090007;
         public static final int line_news=0x7f090006;
         public static final int line_photo=0x7f090008;
         public static final int pager=0x7f090005;
-        public static final int pb1=0x7f090019;
+        public static final int pb1=0x7f090018;
         public static final int pic_event=0x7f09000d;
         public static final int pic_news=0x7f09000a;
         public static final int pic_photo=0x7f090010;
-        public static final int relativeLayout1=0x7f090014;
         public static final int tab_event=0x7f09000c;
         public static final int tab_news=0x7f090009;
         public static final int tab_photo=0x7f09000f;
@@ -665,17 +664,17 @@ containing a value of this type.
         public static final int text_event=0x7f09000e;
         public static final int text_news=0x7f09000b;
         public static final int text_photo=0x7f090011;
-        public static final int title=0x7f090017;
+        public static final int title=0x7f090016;
         public static final int top=0x7f090000;
-        public static final int xlistview_footer_content=0x7f09001d;
-        public static final int xlistview_footer_hint_textview=0x7f09001f;
-        public static final int xlistview_footer_progressbar=0x7f09001e;
-        public static final int xlistview_header_arrow=0x7f090024;
-        public static final int xlistview_header_content=0x7f090020;
-        public static final int xlistview_header_hint_textview=0x7f090022;
-        public static final int xlistview_header_progressbar=0x7f090025;
-        public static final int xlistview_header_text=0x7f090021;
-        public static final int xlistview_header_time=0x7f090023;
+        public static final int xlistview_footer_content=0x7f09001c;
+        public static final int xlistview_footer_hint_textview=0x7f09001e;
+        public static final int xlistview_footer_progressbar=0x7f09001d;
+        public static final int xlistview_header_arrow=0x7f090023;
+        public static final int xlistview_header_content=0x7f09001f;
+        public static final int xlistview_header_hint_textview=0x7f090021;
+        public static final int xlistview_header_progressbar=0x7f090024;
+        public static final int xlistview_header_text=0x7f090020;
+        public static final int xlistview_header_time=0x7f090022;
         public static final int xlistview_home=0x7f090013;
     }
     public static final class layout {
